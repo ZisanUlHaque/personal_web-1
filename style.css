@@ -1,0 +1,145 @@
+ body{
+    margin: 0;
+    font-family: "Poppins", serif;
+ 
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.pinky{
+    color: rgb(128, 0, 85);
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 100%;
+}
+.top-bannar{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, rgb(255, 122, 226),rgb(123, 5, 110));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.bio-area{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.work{
+    text-align: center;
+}
+.latest-work{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#latest-work {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  #latest-work h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .work-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .work-item {
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .work-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  footer p{
+    text-align: center;
+}
+#testimonial {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  #testimonial h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-content {
+    margin-bottom: 40px;
+  }
+  
+  .client-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .client-title {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  blockquote {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 20px 0;
+    font-style: italic;
+  }
+  
+  .contact-box {
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    padding: 50px 20px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+  }
+  
+  .contact-box p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .contact-box a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .contact-box a:hover {
+    text-decoration: underline;
+  }
+  
