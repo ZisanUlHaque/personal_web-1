@@ -42,9 +42,7 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.work{
-    text-align: center;
-}
+
 .latest-work{
     background-image: url(latest-work-bg.png);
     background-repeat: no-repeat;
@@ -58,19 +56,19 @@ section{
   
   #latest-work h2 {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #333;
   }
   
   .work-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
     flex-wrap: wrap;
   }
   
   .work-item {
-    width: 300px;
+    width: 400px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
@@ -121,7 +119,7 @@ section{
   
   .contact-box {
     background: linear-gradient(90deg, #ff758c, #ff7eb3);
-    padding: 50px 20px;
+    padding: 40px 80px;
     border-radius: 10px;
     color: white;
     display: inline-block;
