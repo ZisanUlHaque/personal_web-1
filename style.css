@@ -86,7 +86,7 @@ section{
 #testimonial {
     text-align: center;
     padding: 50px 20px;
-    background-color: #fff;
+    background-image: url(footer-bg.png);
   }
   
   #testimonial h2 {
